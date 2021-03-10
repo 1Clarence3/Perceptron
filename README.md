@@ -1,2 +1,2 @@
 # Perceptron
-Simple perceptron training algorithm to visualize AND &amp; OR gates with linear lines.
+Simple perceptron training algorithm to visualize AND &amp; OR gates with linear lines. The perceptron is reptitively trained until it reaches a maximum epoch, with each epoch modifing the 2 weights assigned to the perceptron. Based on how whether these weights, when being multiplied by values, is greater than a threshold (theta), an error is calculated between the target value and the sample output. This error contributes back to modifying the weights through changing elements in an array of outputs.
